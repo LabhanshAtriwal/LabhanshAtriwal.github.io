@@ -764,3 +764,11 @@ nav ul li a {
     letter-spacing: 5px;
     font-weight: normal;
 }
+#extraimg{
+	float: left;
+    margin-right: 20px;
+    height: auto;
+	width: 30%;
+	border-radius:2%;
+}
+	
