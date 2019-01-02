@@ -85,9 +85,10 @@ nav ul li a {
 p {
   margin: 25px 0;
   padding: 0;
-  font-size: 15px;
-  color: #999999;
+  font-size: 16px;
+  color: #898989; /*#999999;*/
   line-height: 28px;
+  text-align:justify;
 }
 
 ::-moz-selection {
@@ -766,9 +767,18 @@ nav ul li a {
 }
 #extraimg{
 	float: left;
-    margin-right: 20px;
+    margin-right: 5%;
     height: auto;
 	width: 30%;
 	border-radius:2%;
 }
-	
+
+.company-logo{
+	height: auto;
+	width: 90%;
+	margin:10%;
+}
+
+.company-txt{
+	text-align:center;
+}
