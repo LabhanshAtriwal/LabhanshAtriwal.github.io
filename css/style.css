@@ -395,6 +395,7 @@ nav ul li a {
 
 #projects {
   position: relative;
+  background: #f7f7f7;
   padding-bottom: 50px;
 }
 
@@ -458,7 +459,6 @@ nav ul li a {
 #experience {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
   padding-bottom: 60px;
   position: relative;
 }
