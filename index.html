@@ -30,6 +30,7 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.png">
+
 </head>
 
 <body>
@@ -40,7 +41,7 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <a href="main.html"><img src="images/logo.png" alt="logo"></a>
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
@@ -71,7 +72,7 @@
 		<ul class="list-unstyled list-social">
           <li><a target="_blank" href="https://www.facebook.com/labhansh.atriwal"><i class="ion-social-facebook"></i></a></li>
           <li><a target="_blank" href="https://www.linkedin.com/in/labhanshatriwal"><i class="ion-social-linkedin"></i></a></li>
-		  <li><a target="_blank" href="https://drive.google.com/file/d/18fYX7ERPXagWdEWi70-4hrsvV6lactxA/view?usp=sharing" id="downloadresume">Download_Resume</a></li>
+		  <li><a target="_blank" href="https://drive.google.com/file/d/115LKEKM69kMSdqRPaepin4KHGeb4eC9o/view?usp=sharing" id="custombutton">Download_Resume</a></li>
         </ul>
         
       </div>
@@ -94,16 +95,27 @@
         </div>
 
         <div class="col-lg-7">
-          <div class="about-descr">
-
-            <p class="p-heading">I am an engineer who loves Robots and wants to spend rest of his life making them. </p>
+          
+            <!--<p class="p-heading" RB>I am an engineer who loves Robots and wants to spend rest of his life making them. </p>-->
+            <p class="p-heading"><h3>I am an engineer who likes to design software solutions for Robotics and Embedded applications. </h3></p>
             <p class="separator">Currently pursuing my Masters in Electrical & Computer Engineering from Cornell University, USA. I did my undergrad in Computer Science Engineering from IP University, India. Post that, I worked for 2+ years in industry - Nagarro India.</p>
 			
-          </div>
-
+          
         </div>
       </div>
-    </div>
+		
+	  <div class="row justify-content-between">
+
+        <div class="col-lg-12">
+            <br/><br/><br/><br/>
+			<p class="separator"><strong>Selected Coursework : </strong> Robotics (ROS), Autonomous Mobile Robots (Localization, Path planning, Mapping, SLAM, Kalman Filter, Particle Filter), Microcontroller Design, Bio-inspired Robotics (Swarm intelligence), Engineering Mechanics. </p>
+			<p class="separator"><strong>Past Coursework : </strong> Selected Coursework : Data Structures, Algorithms & Analysis, Object Oriented Programming, Operating Systems, Artificial Intelligence, Compilers, Computer Networks, Natural Language Processing, Big-Data, Circuit & Systems. </p>
+			
+          
+        </div>
+      </div>
+		
+	</div>
   </div>
   <!-- end section about us -->
 
@@ -118,7 +130,7 @@
 
             <i class="ion-code"></i>
             <span>TECHNOLOGIES</span>
-            <p class="separator">C, C++11, Python, Java, SQL, Javascript, JQuery, C#, HTML, CSS, Hadoop</p>
+            <p class="separator">C++11, C, Python, Java, SQL, Javascript, JQuery, C#, HTML, CSS, Hadoop</p>
 
           </div>
 
@@ -126,10 +138,10 @@
 
             <i class="ion-gear-b"></i>
             <span>PLATFORMS & OS</span>
-            <p class="separator">Raspberry-Pi, Arduino, STM32F, ESP8266, Windows, ROS, Linux, RTOS</p>
+            <p class="separator">ROS, Linux, RTOS, Windows, STM32F, ESP8266, Raspberry-Pi, Arduino</p>
 
           </div>
-		  
+		    
           <div class="services-block">
 
             <i class="ion-ios-paper"></i>
@@ -168,7 +180,23 @@
       <div class="section-title text-center">
         <h2>Industry Experience</h2>
       </div>
-	  <div class="row">
+	<div class="row">
+		<div class="col-lg-5">
+			<a target="_blank" href="https://www.arista.com/en/"><img src="images/arista-logo.png" class="img-responsive company-logo" alt="img"></a>
+		</div>
+		<div class="col-lg-7">
+			<div class="company-txt">
+			<br/><br/>
+			As a <strong>Summer Intern</strong>, working in the <strong>Platform Software</strong> team at Arista <strong>(June 2019 to Aug 2019)</strong><br/><br/>
+			As part of the Platform team, one has to work on the software that is focused on programming the switch chips.
+			<br/><br/>
+			Learning on how to program the chip components dedicated for layer 3 (routing), layer 2 (switching) or layer1/system (physical ports / interfaces and other components that are close to the hardware)
+			</div>
+		</div>
+		
+	</div>
+	<br/><br/><br/>
+	<div class="row">
 		<div class="col-lg-7">
 			<div class="company-txt">
 			Worked for <strong>2+ years</strong> as an <strong>Associate, Software & Embedded Developer</strong> at Nagarro Software India <strong>(June 2016 to August 2018)</strong><br/><br/>
@@ -178,7 +206,7 @@
 		</div>
 		<div class="col-lg-5">
 			<a target="_blank" href="https://www.nagarro.com/en"><img src="images/nagarro-logo.png" class="img-responsive company-logo" alt="img"></a>
-		</div>
+	</div>
 	</div>
 	<br/><br/><br/>
 	<div class="row">
@@ -229,9 +257,16 @@
                 <img src="images/rover.jpg" alt="img">
               </a>
 			  <p><strong>Human-Robot Swarms</strong><br/>
-			  On-going Master's Project : Creating a robotic land rover that can traverse in its surroundings with some level of autonomy;
-			  enabling bidirectional communication between humans and robot, and among robots itself. 
-			  Other functionalities include mobility control, collision detection, text-to-speech, image projection etc.
+			  As my Master's Project, under the supervision of my advisor Prof. Kirstin Petersen, I played a role of an Acting-Lead to manage a sub-team.
+			  We designed a low cost, light-weight robotic rover that could maneuver on unstructured terrains. We built our own customized hardware; And a
+			  modular, scalable and testable control software. We also designed a custom json based protocol that any remote operator can follow to control the rover wirelessly.
+			  <a target="_blank" href="https://drive.google.com/file/d/19jw0RBYIDECtGD4aua-Ih6iHx9T9gqvd/view?usp=sharing">
+			  READ MORE
+			  </a> / 
+			  <a target="_blank" href="https://drive.google.com/file/d/1EsblghuCUBwM643yKG-RNZiNi5fhFUaX/view?usp=sharing">
+			  POSTER
+			  </a>
+			  
 			  </p>
             </div>
 
@@ -252,7 +287,7 @@
                 <img src="images/quadcopter.jpg"  alt="img">
               </a>
 			  <p><strong>3-DoF Self-Balancing Quadcopter</strong><br/>
-			  We created a flight controller on PIC32 using an android phone as an IMU sensor module. 
+			  We created a 3-Degree-of-Freedom self-stabilizing flight controller for a quadcopter, on PIC32 using an android phone as an IMU sensor module. 
 			  <a target="_blank" href="http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2018/la375_ahd59_kch95_ut33/la375_ahd59_kch95_ut33/la375_ahd59_kch95_ut33/index.html">
 			  READ MORE
 			  </a> / 
@@ -419,12 +454,14 @@
 	  
 	    <img src="images/jiu-jitsu.jpg" class="img-responsive" id="extraimg" alt="img">
 		<p><br/>
+		Very much into racquet games like Table tennis, Badminton, Squash; 
+		Snowboarding; 
 		Martial Arts – Brazilian Jiu Jitsu; 
 		Kickboxing – Level 7thKyu(Orange belt); 
+		I have a bucket list for doing every Adventure sport once; 
 		Winner - Team Excellence award 2018 at Nagarro; 
 		Winner - Cheerboard nomination for best performance in May 2018 at Nagarro; 
 		Winner - Mr. Personality at Nagarro Freshers 2016; 
-		Very much into Table tennis, Badminton and almost every adventure sport; 
 		Participated in various debate competitions in college, & was a part of toastmasters in India
 		</p>
 		</div>

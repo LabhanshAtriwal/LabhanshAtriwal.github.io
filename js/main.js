@@ -7,7 +7,15 @@ $(document).ready(function() {
   //  //SMOOTH SCROLL
   // ========================================================================= //
 
-
+  // Obsolete
+  //	if (location.search.substring(1).search("default=0") == -1){
+  //			$('[CS]').css("display","none");
+  //			$('[RB]').css("display","inherit");
+  //	}else{
+  //			$('[RB]').css("display","none");
+  //			$('[CS]').css("display","inherit");		
+  //	}
+  
   $(document).on("scroll", onScroll);
 
   $('a[href^="#"]').on('click', function(e) {
