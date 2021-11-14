@@ -746,6 +746,10 @@ nav ul li a {
   margin-top: 0;
   text-transform: uppercase;
 }
+.contact-block1 a {
+	font-size:500%;
+	text-shadow:1px 1px 4px #000000;
+}
 
 .credits {
   font-size: 13px;
