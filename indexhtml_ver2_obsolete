@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Labhansh Atriwal - Personal Webiste</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="main.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#skills" class="smoothScroll">Skills</a></li>
+          <li><a href="#experience" class="smoothScroll">Experience</a></li>
+          <li><a href="#projects" class="smoothScroll">Projects</a></li>
+          <li><a href="#publications" class="smoothScroll">Publications</a></li>
+          <li><a href="#extra" class="smoothScroll">Extracurriculars</a></li>
+          <li><a href="#contact" class="smoothScroll">Connect</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+		<h1>I'm <span class="typed"></span></h1>
+		<h1 id="myname">Labhansh Atriwal</h1>
+		<ul class="list-unstyled list-social">
+          <li><a target="_blank" href="https://www.linkedin.com/in/labhanshatriwal"><i class="ion-social-linkedin"></i></a></li>
+		  <li><a target="_blank" href="mailto: labhanshatriwal@gmail.com"><i class="ion-android-drafts"></i></a></li>
+          <li><a target="_blank" href="https://drive.google.com/file/d/1gnWJxSWEOQ3Xnmih4geaS5lZE9dQylrX/view?usp=sharing" id="custombutton">Download_Resume</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          
+            <!--<p class="p-heading" RB>I am an engineer who loves Robots & wants to spend rest of his life making them. </p>-->
+            <p class="p-heading"><h3>I am an engineer who likes to design software solutions for Robotics & Embedded applications. </h3></p>
+            <p class="separator">Currently pursuing my Masters in Electrical & Computer Engineering from Cornell University, USA. I did my undergrad in Computer Science Engineering from IP University, India. Post that, I worked for 2+ years in industry - Nagarro India.</p>
+			
+          
+        </div>
+      </div>
+		
+	  <div class="row justify-content-between">
+
+        <div class="col-lg-12">
+            <br/><br/><br/><br/>
+			<p class="separator"><strong>Selected Coursework : </strong> Robotics (ROS), Autonomous Mobile Robots (Localization, Path planning, Mapping, SLAM, Kalman Filter, Particle Filter), Microcontroller Design, Bio-inspired Robotics (Swarm intelligence), Engineering Mechanics. </p>
+			<p class="separator"><strong>Past Coursework : </strong> Selected Coursework : Data Structures, Algorithms & Analysis, Object Oriented Programming, Operating Systems, Artificial Intelligence, Compilers, Computer Networks, Natural Language Processing, Big-Data, Circuit & Systems. </p>
+			
+          
+        </div>
+      </div>
+		
+	</div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section skills -->
+  <div id="skills">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-code"></i>
+            <span>TECHNOLOGIES</span>
+            <p class="separator">C++11, C, Python, Java, SQL, Javascript, JQuery, C#, HTML, CSS, Hadoop</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-gear-b"></i>
+            <span>PLATFORMS & OS</span>
+            <p class="separator">ROS, Linux, RTOS, Windows, STM32F, ESP8266, Raspberry-Pi, Arduino</p>
+
+          </div>
+		    
+          <div class="services-block">
+
+            <i class="ion-ios-paper"></i>
+            <span>ORACLE CERTIFICATION</span>
+            <p class="separator">Oracle Certified Professional: Java SE6 Programmer</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-wrench"></i>
+            <span>OTHER SKILLS</span>
+            <p class="separator">Agile, Scrum, Design Patterns, Bitbucket, Git, JIRA</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-paper"></i>
+            <span>MICROSOFT CERTIFICATION</span>
+            <p class="separator">Microsoft Certified Technology Specialist: .NET 4.0, Web Application, Data Access</p>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section skills -->
+
+  <!-- start section experience -->
+  <div id="experience" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Industry Experience</h2>
+      </div>
+	<div class="row">
+		<div class="col-lg-7">
+			<div class="company-txt">
+			<br/><br/>
+			As a <strong>Software Engineer</strong>, working in the <strong>Computer Vision</strong> (ADCV) team at MathWorks <strong>(Feb 2020 to Present)</strong><br/><br/>
+			Contributed to software architecture and design for various robotics areas like: ORB SLAM, data labeling, mapping and path planning. <br/><br/>
+			Lead the effort on state-of-the-art ORB-SLAM implementation from scratch, using multithreaded software architecture to achieve real-time performance. The software turned out to be more efficient than any open-source implementation of ORB-SLAM.
+Lead the effort to introduce Agile methodology in the team. <br/><br/>
+			Worked on SLAM pipeline, to integrate ORB SLAM output with mapping and local/global planning, local/global planning. Also, worked on ROS deployment on a remote robot, to run the SLAM pipeline.
+			<br/><br/>
+			Extensively involved in domain-specific literature study, software development & its architecture design. Technology stack is mostly <strong>C++11 & MATLAB</strong>
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<a target="_blank" href="https://www.mathworks.com/"><img src="images/mathworks-logo.png" class="img-responsive company-logo" alt="img"></a>
+		</div>
+		
+	</div>
+	<br/><br/><br/>
+	<div class="row">
+		<div class="col-lg-5">
+			<a target="_blank" href="https://www.arista.com/en/"><img src="images/arista-logo.png" class="img-responsive company-logo" alt="img"></a>
+		</div>
+		<div class="col-lg-7">
+			<div class="company-txt">
+			<br/><br/>
+			As a <strong>Summer Intern</strong>, working in the <strong>Platform Software</strong> team at Arista <strong>(June 2019 to Aug 2019)</strong><br/><br/>
+			As part of the Platform team, one has to work on the software that is focused on programming the switch chips
+			<br/><br/>
+			Learning on how to program the chip components dedicated for layer 3 (routing), layer 2 (switching) or layer1/system (physical ports / interfaces & other components that are close to the hardware)
+			</div>
+		</div>
+		
+	</div>
+	<br/><br/><br/>
+	<div class="row">
+		<div class="col-lg-7">
+			<div class="company-txt">
+			Worked for <strong>2+ years</strong> as an <strong>Associate, Software & Embedded Developer</strong> at Nagarro Software India <strong>(June 2016 to August 2018)</strong><br/><br/>
+			In an <strong>agile</strong> model, involoved in software development using various <strong>design patterns</strong> & technologies like <strong>C++11, Python & SQLite</strong><br/><br/>
+			Also, worked on various <strong>Proof-of-Concepts</strong> which involved architecture design & hardware development on & around the microcontroller
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<a target="_blank" href="https://www.nagarro.com/en"><img src="images/nagarro-logo.png" class="img-responsive company-logo" alt="img"></a>
+	</div>
+	</div>
+	<br/><br/><br/>
+	<div class="row">
+		<div class="col-lg-5">
+			<a target="_blank" href="https://www.hcltech.com/"><img src="images/hcl-logo.png" class="img-responsive company-logo" alt="img"></a>
+		</div>
+		<div class="col-lg-7">
+			<div class="company-txt">
+			As a <strong>Summer Intern</strong>, assisted the <strong>Information System Manager</strong> at <strong>Premier Inn (Client of HCL Tech)</strong>, under Networking/Server support & IT department <strong>(May 2015 to July 2015)</strong><br/><br/>
+			Analyzed their network architecture, topology, sub-netting & various other networking features<br/><br/>
+			Studied their vast network & communication system between their data centers at different locations
+			</div>
+		</div>
+		
+	</div>
+	
+    </div>
+	   
+  </div>
+  <!-- End section experience -->
+
+  <!-- start section projects -->
+  <div id="projects" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".academic">academic</li>
+              <li class="filter" data-filter=".industrial">industrial</li>
+              <li class="filter" data-filter=".others">others</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all academic">
+              <a class="popup-img" href="images/rover.jpg">
+                <img src="images/rover.jpg" alt="img">
+              </a>
+			  <p><strong>Human-Robot Swarms</strong><br/>
+			  As my Master's Project, under the supervision of my advisor Prof. Kirstin Petersen, I played a role of an Acting-Lead to manage a sub-team.
+			  We designed a low cost, light-weight robotic rover that could maneuver on unstructured terrains. We built our own customized hardware; And a
+			  modular, scalable & testable control software. We also designed a custom json based protocol that any remote operator can follow to control the rover wirelessly.
+			  <a target="_blank" href="https://drive.google.com/file/d/19jw0RBYIDECtGD4aua-Ih6iHx9T9gqvd/view?usp=sharing">
+			  READ MORE
+			  </a> / 
+			  <a target="_blank" href="https://drive.google.com/file/d/1EsblghuCUBwM643yKG-RNZiNi5fhFUaX/view?usp=sharing">
+			  POSTER
+			  </a>
+			  
+			  </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all industrial">
+              <a class="popup-img" href="images/lvd-nagarro.jpg">
+                <img src="images/lvd-nagarro.jpg" alt="img">
+              </a>
+			  <p><strong>Lock Verification Device</strong><br/>
+			  Project, for a company which is a global leader in door opening solutions, 
+			  involved development of an embedded-module comprising of sensors & motor movements also known as robotic arm. 
+			  Module was responsible for testing of locks. Primary functions of the system included movement of RFID cards, sensor detection modules, etc. 
+			  with the attempt to reduce human effort.
+			  </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all academic">
+         	  <a class="popup-img" href="images/quadcopter.jpg">
+                <img src="images/quadcopter.jpg"  alt="img">
+              </a>
+			  <p><strong>3-DoF Self-Balancing Quadcopter</strong><br/>
+			  We created a 3-Degree-of-Freedom self-stabilizing flight controller for a quadcopter, on PIC32 using an android phone as an IMU sensor module. 
+			  <a target="_blank" href="http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2018/la375_ahd59_kch95_ut33/la375_ahd59_kch95_ut33/la375_ahd59_kch95_ut33/index.html">
+			  READ MORE
+			  </a> / 
+			  <a target="_blank" href="https://drive.google.com/file/d/1pfCOjDoN2vY-U_BxJWx7EmJzAJMXx65X/view?usp=sharing">
+			  VIDEO 1
+			  </a> / 
+			  <a target="_blank" href="https://drive.google.com/file/d/1jv0Zk0pVN_HxTxj24Q4xg8Quy0g2vvN2/view?usp=sharing">
+			  VIDEO 2
+			  </a>
+			  
+			</p>
+            </div>
+			
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all academic">
+              <a class="popup-img" href="images/r2bot.jpg">
+                <img src="images/r2bot.jpg" alt="img">
+              </a>
+			  <p><strong>Star Wars R2 bot</strong><br/>
+			  This project is done as part of Cornell Cup Robotics; idea is to to make a better version of Star Wars' R2 bot.
+			  It is still in progress, my contribution has mainly been in modules like wireless charging, low battery detection, mobility control etc. 
+			  <a target="_blank" href="https://drive.google.com/file/d/1HZ1SAr9fxekKNfErKttN3gmuOx2_7Tz4/view?usp=sharing">
+			  VIDEO
+			  </a>
+			  </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all others">
+              <a class="popup-img" href="images/othello.png">
+                <img src="images/othello.png" alt="img">
+              </a>
+			  <p><strong>Othello Game</strong><br/>
+			  Created a desktop game application called Othello, having Two-Player & Player-vs-Computer features. 
+			  Player-vs-Computer feature was implemented using Artificial Intelligence (Minimax Procedure). 
+			  <a target="_blank" href="https://drive.google.com/file/d/1uxXfHC_pN0zhXwIyprO-wMjI9FafvppZ/view?usp=sharing">
+			  VIDEO
+			  </a>
+			  </p>
+            </div>
+						
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all industrial">
+              <a class="popup-img" href="images/at-nagarro.jpg">
+                <img src="images/at-nagarro.jpg" alt="img">
+              </a>
+			  <p><strong>Device Layer Development</strong><br/>
+			  Production-level project(@Nagarro), for a company which is a global leader in lighting control systems, 
+			  involved development of an embedded-layer which acts as a controlling medium between server & appliances, in a home-automation environment.
+			  </p>
+            </div>
+			
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all academic">
+              <a class="popup-img" href="images/bi-bigdata.png">
+                <img src="images/bi-bigdata.png" alt="img">
+              </a>
+			  <p><strong>Business Intelligence on BigData</strong><br/>
+			  Created a web-based business intelligence tool on Hadoop framework for unstructured (text only) & structured data. 
+			  It was used for sentimental analysis of data, sourced either from a database or through live-scraping from non-sessional 
+			  & sessional websites (like Twitter & Facebook). Tool was also used for visualization of structured data in excel sheets, using google charts.
+			  <a target="_blank" href="https://drive.google.com/file/d/11dbdqqJff8OB3M9PXbnYtPwswdQJQYSZ/view?usp=sharing">
+			  PDF
+			  </a> / 
+			  <a target="_blank" href="https://drive.google.com/file/d/10wluUqzjmkhh7iXPmxt4RRFRnS3EgaLG/view?usp=sharing">
+			  PPT
+			  </a>
+			  </p>
+            </div>
+			
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all industrial">
+              <a class="popup-img" href="images/hnh-nagarro.png">
+                <img src="images/hnh-nagarro.png" alt="img">
+              </a>
+			  <p><strong>Humidity & HVAC Integration</strong><br/>
+			  Proof-of-Concept(@Nagarro) involved the development of a robotic & embedded module which acted as an add-on to the existing controllers. 
+			  In the existing system, the potential trigger points (for activating devices such as HVAC) were some passive elements such as occupancy sensors, 
+			  but the add-on module introduced capability to detect human presence using face detection.
+			  </p>
+            </div>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section projects -->
+
+  <!-- start section publications -->
+  <div id="publications" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Publications</h2>
+      </div>
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <div class="journal-txt">
+
+                <h4>COMPARISON OF GENERALIZED & BIG DATA BUSINESS INTELLIGENCE TOOLS</h4>
+                <p class="separator">3rd IEEE Conference on Computing for Sustainable Global Development (INDIACom), BVP New Delhi, 2016, pp. 3585-3588 (ISBN 978-9-3805-4421-2)
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <div class="journal-txt">
+
+                <h4>BUSINESS INTELLIGENCE TOOLS FOR BIG DATA</h4>
+                <p class="separator">International Conference on Innovative Research in Computer Science, E-Learning, Information & Communication Technology (CSIT-TCI), JNU New Delhi, 2016, pp. 505-509 (ISSN 2350-0255)
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <div class="journal-txt">
+
+                <h4>SPEECH RECOGNITION & SYNTHESIS</h4>
+                <p class="separator">2nd International Conference (CSIT-TCI), RDIAS New Delhi, 2016, pp. 123 (ISBN 978-93-85777)
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- End section publications -->
+
+  <!-- start section extracurriculars -->
+  <div id="extra" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Extracurriculars</h2>
+      </div>
+	  
+	    <img src="images/jiu-jitsu.jpg" class="img-responsive" id="extraimg" alt="img">
+		<p><br/>
+		Very much into racquet games like Table tennis, Badminton, Squash; 
+		Snowboarding; 
+		Martial Arts – Brazilian Jiu Jitsu; 
+		Kickboxing – Level 7thKyu(Orange belt); 
+		I have a bucket list for doing every Adventure sport once; 
+		Winner - Team Excellence award 2018 at Nagarro; 
+		Winner - Cheerboard nomination for best performance in May 2018 at Nagarro; 
+		Winner - Mr. Personality at Nagarro Freshers 2016; 
+		Participated in various debate competitions in college, & was a part of toastmasters in India
+		</p>
+		</div>
+	
+  </div>
+  <!-- End section extracurriculars -->
+
+  <!-- start section contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+	    <h2 class="mb-30">GET IN TOUCH</h2>
+
+        <div class="row">
+		  <div class="col-lg-3"></div>
+          	  <div class="col-lg-3">
+			<a target="_blank" href="https://www.linkedin.com/in/labhanshatriwal/"><i class="ion-social-linkedin"></i></a>
+		  </div>
+		  
+		  <div class="col-lg-3">
+			<a target="_blank" href="mailto: labhanshatriwal@gmail.com"><i class="ion-social-google"></i></a>
+		  </div>
+		
+		  <div class="col-lg-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      
+      <div class="credits">
+      &copy; Copyrights Folio. All rights reserved.<br/>
+		<!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Web-Design Inspired from <a target="_blank" href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
